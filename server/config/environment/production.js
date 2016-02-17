@@ -19,6 +19,6 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/cinematrack'
+          'mongodb://meanuser:meanpass@ds011278.mongolab.com:11278/cinema-track'
   }
 };
